@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#home"><span class="material-icons selected"> home </span></a>
+      <a href="#video"><span class="material-icons"> play_circle </span></a>
+      <a href="#courses"><span class="material-icons"> school </span></a>
+      <a href="#games"><span class="material-icons"> sports_esports </span></a>
+      <a href="#questions"
+        ><span class="material-icons"> contact_support </span></a
+      >
+    </nav>
+    <main id="home" class="home section">
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__text">
+            <h1 class="hero__title">Algoritmos</h1>
+            <p class="hero__subtitle">Y su valor en nuestra sociedad...</p>
+          </div>
+        </div>
+      </section>
+      <section class="info container">
+        <h2 class="info__title">¿Qué son los Algoritmos?</h2>
+        <p class="info__info">
+          Un algoritmo es un conjunto de instrucciones para resolver un problema
+          o realizar una tarea. Un ejemplo común de un algoritmo es una receta,
+          que consta de instrucciones específicas para preparar un plato /
+          comida. Cada dispositivo computarizado usa algoritmos para realizar
+          sus funciones.
+        </p>
+        <br />
+        <p class="info__info">
+          Las empresas financieras utilizan algoritmos en áreas como precios de
+          préstamos, negociación de acciones, gestión de activos y pasivos y
+          muchas funciones automatizadas. Por ejemplo, el comercio algorítmico,
+          conocido como comercio "algo", se utiliza para decidir el momento, el
+          precio y la cantidad de pedidos de acciones. El comercio de
+          algoritmos, también conocido como comercio automatizado o comercio de
+          caja negra, utiliza un programa informático para comprar o vender
+          valores a un ritmo que no es posible para los humanos.
+        </p>
+      </section>
+      <div class="section-image__container container">
+        <img class="section-image" src="./docs/img/diagram1.jpg" alt="diagrama">
+      </div>
+      <section class="info container">
+        <h2 class="info__title">
+          Algoritmos en las Ciencias de la Computación
+        </h2>
+        <p class="info__info">
+          En informática, un programador debe emplear cinco partes básicas de un
+          algoritmo para crear un programa exitoso.
+          <br />
+          Primero, describe el problema en términos matemáticos antes de crear
+          las fórmulas y procesos que generan resultados. A continuación, el
+          programador ingresa los parámetros de resultado y luego ejecuta el
+          programa repetidamente para probar su precisión. La conclusión del
+          algoritmo es el resultado dado después de que los parámetros pasan por
+          el conjunto de instrucciones del programa.
+          <br />
+          Para los algoritmos financieros, cuanto más complejo es el programa,
+          más datos puede utilizar el software para realizar evaluaciones
+          precisas para comprar o vender valores. Los programadores prueban los
+          algoritmos complejos a fondo para asegurarse de que los programas no
+          tengan errores. Se pueden usar muchos algoritmos para un problema; sin
+          embargo, hay algunos que simplifican el proceso mejor que otros.
+        </p>
+      </section>
+      <div class="section-image__container container">
+        <img class="section-image" src="./docs/img/diagram2.jpg" alt="diagrama">
+      </div>
+      <section class="info container">
+        <h2 class="info__title">Algoritmo de Búsqueda Binaria</h2>
+        <p class="info__info">
+          La búsqueda binaria es un algoritmo de búsqueda esencial que toma una
+          matriz ordenada y devuelve el índice del valor que estamos buscando.
+          Hacemos esto con los siguientes pasos
+        </p>
+        <br />
+        <ul>
+          <div class="info__info">
+            <li>Encuentra el punto medio de la matriz ordenada.</li>
+            <li>Compare el punto medio con el valor de interés.</li>
+            <li>
+              Si el punto medio es mayor que el valor, realice una búsqueda
+              binaria en la mitad derecha de la matriz.
+            </li>
+            <li>
+              Si el punto medio es más pequeño que el valor, realice una
+              búsqueda binaria en la mitad izquierda de la matriz.
+            </li>
+            <li>
+              Repita estos pasos hasta que el valor del punto medio sea igual al
+              valor de interés o sepamos que el valor no está en la matriz.
+            </li>
+          </div>
+        </ul>
+        <br />
+        <p class="info__info">
+          De los pasos anteriores, está claro que nuestra solución puede ser
+          recursiva. Pasaremos una matriz más pequeña a nuestro método en cada
+          iteración hasta que nuestra matriz solo contenga el valor que nos
+          interesa. Las partes complicadas son indexar nuestra matriz
+          correctamente y realizar un seguimiento de nuestro desplazamiento de
+          índice en cada iteración para que podamos devolver el índice de
+          nuestro valor de la matriz original. Vea a continuación nuestra
+          versión del algoritmo de búsqueda binaria.
+        </p>
+      </section>
+      <div class="section-image__container container">
+        <img class="section-image" src="./docs/img/diagram3.jpg" alt="diagrama">
+      </div>
+    </main>
+  </body>
+</html>
